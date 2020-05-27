@@ -1,3 +1,5 @@
+console.log('hello world')
+
 let bike1 = document.querySelector('#bike1')
 let bike2 = document.querySelector('#bike2')
 let yeah = document.querySelector('#yeah')
