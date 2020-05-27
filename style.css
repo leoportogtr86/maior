@@ -1,0 +1,34 @@
+h1{
+
+    margin-bottom: 50px;
+}
+
+
+#oops, #yeah{
+
+    display: none;
+}
+
+#bird2{
+
+    position: absolute;
+    bottom: 0;
+}
+
+
+#bola1{
+
+    position: absolute;
+    bottom: 0;
+}
+
+
+#cubo2{
+
+    
+}
+
+.container{
+
+    margin-top: 100px;
+}
