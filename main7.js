@@ -12,14 +12,14 @@ var sampler = new Tone.Sampler({
 }, function(){
 	//sampler will repitch the closest sample
     
-    maca2.onclick = function () {
+    maca1.onclick = function () {
 
         sampler.triggerAttack('C#3')
-        maca2.classList.add('animate__shakeX')
+        maca1.classList.add('animate__shakeX')
         oops.style.display = 'block'
 
         setTimeout(function () {
-            maca2.classList.remove('animate__shakeX')
+            maca1.classList.remove('animate__shakeX')
             oops.style.display = 'none'
 
             
@@ -29,16 +29,16 @@ var sampler = new Tone.Sampler({
         
     }
 
-    maca1.onclick = function () {
+    maca2.onclick = function () {
 
         sampler.triggerAttack('C3')
         yeah.style.display = 'block'
 
 
-        maca1.classList.add('animate__flash')
+        maca2.classList.add('animate__flash')
 
         setTimeout(function () {
-            maca1.classList.remove('animate__flash')
+            maca2.classList.remove('animate__flash')
             yeah.style.display = 'none'
 
         }, 1000)
